@@ -1,3 +1,11 @@
+square = lambda x, y : x**y
+print (square(10,2))
+
+출력 값
+100
+
+람다를 사용하여 square 변수에 두 값을 제곱하도록 지정하여 출력
+
 numbers = [111,26,37,48]
 result = list(filter(lambda x : x%2 == 0 , numbers))
 print(result)
