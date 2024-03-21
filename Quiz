@@ -1,0 +1,8 @@
+numbers = [111,26,37,48]
+result = list(filter(lambda x : x%2 == 0 , numbers))
+print(result)
+
+출력값
+[26, 48]
+
+numbers 리스트를 지정한 후 필터에서 람다를 사용하여 2로 나눈 값의 나머지 0이 되는 수를 result에 저장하여 출력
