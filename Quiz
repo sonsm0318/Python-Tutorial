@@ -1,4 +1,4 @@
-'''python
+'''javascript
 square = lambda x, y : x**y
 print (square(10,2))
 '''
@@ -8,7 +8,7 @@ print (square(10,2))
 
 람다를 사용하여 square 변수에 두 값을 제곱하도록 지정하여 출력
 
-'''python
+'''javascript
 numbers = [111,26,37,48]
 result = list(filter(lambda x : x%2 == 0 , numbers))
 print(result)
@@ -22,7 +22,7 @@ numbers 리스트를 지정한 후 필터에서 람다를 사용하여 2로 나�
 
 과제
 
-'''python
+'''javascript
 for i in range(2, 10):  // 변수 i를 2에서 9가 될때 까지 아래 명령을 실행
     print(f"{i} 단")  // 현재 단 수를 출력
     for j in range(2, 10):  // 변수 j를 2에서 9가 될때 까지 아래 명령을 실행
