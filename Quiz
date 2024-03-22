@@ -14,3 +14,13 @@ print(result)
 [26, 48]
 
 numbers 리스트를 지정한 후 필터에서 람다를 사용하여 2로 나눈 값의 나머지 0이 되는 수를 result에 저장하여 출력
+
+
+과제
+
+![흐름도](file:///C:/Users/User/Downloads/KakaoTalk_20240322_203600197.jpg)
+
+for i in range(2, 10):  // 변수 i를 2에서 9가 될때 까지 아래 명령을 실행
+    print(f"{i} 단")  // 현재 단 수를 출력
+    for j in range(2, 10):  // 변수 j를 2에서 9가 될때 까지 아래 명령을 실행
+        print(f"{i} * {j} = {i*j}")  // i*j의 값을 출력
